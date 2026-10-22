@@ -1,0 +1,59 @@
+{
+  "schema": "ai-profile/v1",
+  "name": "张宏飞",
+  "name_pinyin": "Zhang Hongfei",
+  "birth_year": 1970,
+  "location": "上海",
+  "language": ["zh-CN", "en (CET-4)"],
+  "family": {
+    "members": 3,
+    "daughter": "张颐熙（大学硕士二年级在读）"
+  },
+  "career": {
+    "domain": "采购（原材料品类）",
+    "years": "30+",
+    "history": [
+      "上海锅炉厂（国资委企业）6.5 年，原材料采购，曾任采购团队管理",
+      "上海贝尔",
+      "阿尔卡特上海贝尔",
+      "诺基亚上海贝尔",
+      "诺基亚上海"
+    ],
+    "background": "国企 + 跨国合资/独资企业双重采购背景"
+  },
+  "tech_environment": {
+    "primary_machine": "MacBook M3 24G+512G (macOS user: zhanghongfei)",
+    "legacy_machine": "MacBook M1",
+    "home_lab": {
+      "device": "斐讯 N1 盒子 (LAN IP 192.168.2.240)",
+      "os": "iStoreOS + OpenClash 旁路由",
+      "docker_services": ["Sub-Store (192.168.2.240:3001)"]
+    },
+    "multimedia": "ffmpeg 8.1.2 (videotoolbox + libx265)",
+    "in_progress": ["VPS 部署 3x-ui 代理面板"],
+    "code_level": "业余水平，能读非专业开发代码",
+    "info_sources": ["GitHub", "CSDN", "B站", "YouTube", "X"]
+  },
+  "ai_toolchain": {
+    "tools": ["ChatGPT", "Claude", "Gemini", "DeepSeek"],
+    "primary_stack": "Codex + ccswitch (DeepSeek token)",
+    "workspace": "WorkBuddy（云端工作区 / 连接电脑，两个独立空间）",
+    "preference": "开源免费方案",
+    "researching": ["DeepSeek harness"]
+  },
+  "current_focus": [
+    "AI 大模型 × 内容生成视频（政经类、生活类短视频）",
+    "抖音运营（粉丝约 2000，爱国正能量定位）",
+    "短视频记录生活"
+  ],
+  "interaction_preferences": {
+    "language": "简体中文优先，技术术语保留英文",
+    "style": ["直接", "犀利", "精准克制", "零幻觉", "逐步推导", "自我验证"],
+    "avoid": ["说教", "居高临下", "过度客套", "编造命令或事实", "体育比赛话题", "电子游戏话题"],
+    "workflow": "完整可粘贴命令序列 + 参数范围 + 示例；多步任务逐条执行逐条确认",
+    "cli_preference": "curl 命令行优先，macOS 终端环境",
+    "reuse": "倾向把重复工作流固化为可复用技能/脚本"
+  },
+  "updated": "2026-10-22",
+  "version": "1.0.0"
+}
